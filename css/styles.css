@@ -15,10 +15,56 @@
   margin: 0;
   text-decoration: none;
 }
-.containe{
+.container {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 15px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  justify-content: space-between;
+}
+.container-link{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container{
+  flex-direction:column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  gap:20px;
+}
+.container-kontact {
+  display: flex;
+}
+.mainflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  height: 600px;
+  text-align: center;
+}
+.list-feature{
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 94px;
+  gap: 30px;
+}
+.container-job{
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 94px;
+  gap:30px;
+}
+.container-person{
+  display: flex;
+  justify-content:space-between;
+  gap:30px;
 }
 ul {
   list-style: none;
@@ -27,12 +73,16 @@ button {
   cursor: pointer;
   outline: none;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
 }
 body {
   font-family: var(--font-family-primary), sans-serif;
   background: var(--color-text-secendary);
   color: var(--color-text-primary);
-  letter-spacing: 0.03em;
 }
 h1 {
   font-weight: 900;
@@ -41,12 +91,15 @@ h1 {
   color: var(--color-text-secendary);
   text-align: center;
   letter-spacing: 0.06em;
+  margin: 200px 280px;
+  max-width: 696px
 }
 h3 {
   font-family: var(--font-family-primary);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  margin-bottom: 10px;
 }
 h2 {
   font-family: var(--font-family-primary);
@@ -54,6 +107,7 @@ h2 {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
 }
 .menu-link {
   font-family: var(--font-family-secondary);
@@ -62,7 +116,12 @@ h2 {
   line-height: 1.19;
   color: var(--color-text-hover);
 }
-.main-first,
+.main-first {
+  background: var(--background-color-main-first-footer);
+  height: 600px;
+  margin-bottom: 94px;
+}
+
 .main-footer {
   background: var(--background-color-main-first-footer);
 }
@@ -112,6 +171,9 @@ h2 {
   font-weight: 700;
   background: var(--color-text-hover);
   color: var(--color-text-secendary);
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
 }
 .button-secendary {
   font-family: var(--font-family-primary);
@@ -144,7 +206,7 @@ p {
 }
 .color-card {
   background: var(--background-page-color);
-}
+  }
 .address-color > li {
   color: var(--color-text-secendary);
   font-style: normal;
