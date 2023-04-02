@@ -15,6 +15,11 @@
   margin: 0;
   text-decoration: none;
 }
+.containe{
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
 ul {
   list-style: none;
 }
@@ -61,7 +66,6 @@ h2 {
 .main-footer {
   background: var(--background-color-main-first-footer);
 }
-
 
 .social-links,
 .color {
@@ -129,7 +133,7 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.section-background{
+.section-background {
   background: var(--background-color-heder-button);
 }
 .header-background {
