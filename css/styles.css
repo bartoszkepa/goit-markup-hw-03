@@ -40,7 +40,7 @@ h1 {
   color: var(--color-text-secendary);
   text-align: center;
   letter-spacing: 0.06em;
-  margin-top: 106px;
+  padding-top: 106px;
   max-width: 696px;
 }
 h3 {
