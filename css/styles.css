@@ -133,11 +133,11 @@ p {
   text-align: center;
   align-items: center;
 }
-/* .container-portfolio {
+.container-portfolio {
   display:flex;
-  flex-wrap:wrap;
-  gap: 30px;
-} */
+  flex-basis:auto;
+ 
+} 
 .product-cards {
   display: flex;
   width: 370px;
@@ -269,6 +269,7 @@ p {
   gap: 30px;
   flex-basis: calc((100%-60px) / 3);
   justify-content: center;
+  padding-top: 56px;
 
 }
 .padding-top {
