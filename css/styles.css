@@ -154,8 +154,8 @@ p {
 .mainflex {
   text-align: center;
   margin-bottom: 106px;
-  margin-left: 0;
-  padding-left: 452px;
+  margin-right: 452px;
+  padding-right: 452px;
 }
 .button-secendary,
 .button-primery {
@@ -262,30 +262,22 @@ p {
   color: var(--color-text-secendary);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
 .container-portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap:30px;
+  gap: 30px;
   padding-top: 50px;
 }
 .product-cards {
-  /* display: flex;
-  width: 370px;
-  height: 404px; */
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
 .head1 {
-  /* width: 322px;
-  height: 36px; */
   padding-top: 20px;
   padding-left: 24px;
   font-size: 18px;
 }
 .head2 {
-  /* width: 322px;
-  height: 30px; */
   padding: 4px 24px 20px 24px;
   font-size: 16px;
 }
