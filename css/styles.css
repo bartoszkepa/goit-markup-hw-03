@@ -150,13 +150,10 @@ p {
 /* ------EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU------ */
 .main-first {
   background: var(--background-color-main-first-footer);
-}
-.mainflex {
+  display: flex;
   text-align: center;
-  margin-bottom: 106px;
-  margin-right: 452px;
-  padding-right: 452px;
 }
+
 .button-secendary,
 .button-primery {
   background-color: var(--background-color-heder-button);
